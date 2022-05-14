@@ -9,6 +9,7 @@ public class Team {
     private ArrayList<Player> players;
     private ArrayList<Coach> coaches;
     private ArrayList<TeamManager> teamManagers; /////////not sure
+    private ArrayList<TeamOwner> teamOwners;
     private FinancialBook financialBook;
     private Season season;
 }

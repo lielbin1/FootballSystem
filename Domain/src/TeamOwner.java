@@ -1,6 +1,8 @@
+import java.util.ArrayList;
+
 public class TeamOwner {
     private Team team;
-    //private ArrayList<AppointedRoles> appointedRoles;
+    private ArrayList<Object> appointedRoles;
 
 
     public void addCoach(){
@@ -30,7 +32,7 @@ public class TeamOwner {
     public void editPermission(){
     }
 
-    public void editersonalPage(){
+    public void editpersonalPage(){
     }
 
     public void openTeamRequest(){

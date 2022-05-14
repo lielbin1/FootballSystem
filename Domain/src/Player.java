@@ -5,7 +5,7 @@ public class Player {
     private int position;
     private Object personalPage;
     private Team team;
-    private Object addedByTeamOwnerOrManager;
+    private Object addedByTeamOwnerOrManager;// maybe bool
 
     public void addPersonalContent(int content){
 

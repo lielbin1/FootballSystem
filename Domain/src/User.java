@@ -1,6 +1,6 @@
 import javax.management.relation.Role;
 import java.util.ArrayList;
-
+// connection to database?
 public class User {
     private String userName;
     private String password;
@@ -21,5 +21,8 @@ public class User {
     public void logInUser(String username, String pass){
         this.userName = username;
         this.password = pass;
+    }
+    public void registerUser( String username, String password,String first_name ,String lastName,String email){
+        //connections
     }
 }

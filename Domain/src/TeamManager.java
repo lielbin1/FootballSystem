@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class TeamManager {
     private Team team;
-    //private ArrayList<AppointedRoles> appointedRoles;
+    private ArrayList<Object> appointedRoles;
     public void addCoach(){
     }
 
@@ -27,7 +27,7 @@ public class TeamManager {
     public void editPermission(){
     }
 
-    public void editersonalPage(){
+    public void editpersonalPage(){
     }
 
     public void openTeamRequest(){
