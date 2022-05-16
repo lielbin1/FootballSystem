@@ -1,5 +1,12 @@
 package Presentation;
+
+
 import Domain.associationRepresentatives;
+import Domain.Team;
+import Domain.Referee;
+
+
+;
 
  //associationRepresentatives presentation
 
@@ -28,8 +35,25 @@ public class ASPresentation {
 
     }
 
+    // adds game policy season id and leage it to the domain
+    public void scheduleGamesPolicyPresentation(String gamePolicyId, String leagueId, String title, String description, String seasonId){
+        if(Integer.parseInt(gamePolicyId) <0 || Integer.parseInt(seasonId)<0 || Integer.parseInt(leagueId) <0){
+            System.out.println("Id must be equal or bigger then 0");
+            return;
+        }
+        ar.scheduleGamesPolicyDomain(gamePolicyId, title, description,seasonId);
 
-    public void scheduleGames(){
+
 
     }
+
+
+    public void addGamePresentaion(String gameDateTime, Team homeTeam, Team awayTeam, String field, Referee referee, String homeTeamScore, String awayTeamScore, String gameSchedule, String seasonId, String gameID){
+        if(homeTeam == null || awayTeam == null || field == null || referee == null || seasonId == null){
+            System.out.println("one or more of the arguments are null. try again");
+            return;
+        }
+        ar.addGameDomain(gameDateTime,  homeTeam,  awayTeam,  field,  referee,  homeTeamScore,  awayTeamScore,  gameSchedule,  seasonId,  gameID);
+    }
 }
+

@@ -12,7 +12,7 @@ public class refereeAccess {
             //connect to mysql database locally
             Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/user", "root", "root");
             Statement statement = connection.createStatement();
-            //create an sql command
+            //create an sql commands
             String sql = "select * from refereeTable";
             //execute the command
             ResultSet resultSet = statement.executeQuery(sql);

@@ -3,7 +3,7 @@ package Domain;
 import java.util.ArrayList;
 
 public class Season {
-    private String year;
+    private String seasonId;
     private ArrayList<Game> games;
     private GamePolicy gamePolicy;
     private ScoringCalculationPolicy scoringCalculationPolicy;

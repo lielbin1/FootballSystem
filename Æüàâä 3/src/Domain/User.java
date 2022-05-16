@@ -13,12 +13,6 @@ public class User {
     private Boolean isConnection;
     private UserHandler userHandler;
 
-    public void search(){
-
-    }
-    public void sortBy(){
-
-    }
 
     public void logInUser(String username, String pass){
         this.userName = username;
@@ -27,4 +21,44 @@ public class User {
     public void registerUser( String username, String password,String first_name ,String lastName,String email){
         //connections
     }
+    public String getUserName() {
+        return userName;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public ArrayList<Role> getRoles() {
+        return roles;
+    }
+
+    public Boolean getConnection() {
+        return isConnection;
+    }
+
+    public UserHandler getUserHandler() {
+        return userHandler;
+    }
+
+    public void search(){
+
+    }
+    public void sortBy(){
+
+    }
+
+
 }
