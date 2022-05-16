@@ -1,3 +1,5 @@
+package Domain;
+
 public class ScoringCalculationPolicy {
     private int scoringPolicyId;
     private String title;

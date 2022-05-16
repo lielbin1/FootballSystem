@@ -1,3 +1,5 @@
+package Domain;
+
 public class SystemAdmin extends SystemRole {
     private System system;
 

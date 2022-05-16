@@ -1,3 +1,5 @@
+package Domain;
+
 public class Coach {
     private String qualification;
     private  Boolean isHeadCoach;

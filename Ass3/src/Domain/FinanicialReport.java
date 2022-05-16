@@ -1,3 +1,5 @@
+package Domain;
+
 public class FinanicialReport {
     private String type;
     private String seacription;

@@ -1,3 +1,5 @@
+package Domain;
+
 public class Guest {
     private UserHandler userHandler;
 
